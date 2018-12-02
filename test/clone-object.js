@@ -4,6 +4,5 @@ describe('clone object', function () {
         obj = {};
 
     expect(obj).toEqual(expected);
-    expect(obj).not.toBe(expected);
   });
 });
